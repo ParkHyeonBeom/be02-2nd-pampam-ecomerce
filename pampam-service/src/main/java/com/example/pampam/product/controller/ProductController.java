@@ -18,7 +18,7 @@ import org.springframework.web.multipart.MultipartFile;
 @RequiredArgsConstructor
 public class ProductController {
     private final ProductService productService;
-    @ApiOperation(value = "상품 등록일걸?요?")
+    @ApiOperation(value = "상품 등록일걸?요?아마?")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "email", value = "이메일을 받기 위한 토큰 입력",
                     required = true, paramType = "query", dataType = "string", defaultValue = ""),
